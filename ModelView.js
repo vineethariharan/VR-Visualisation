@@ -41,7 +41,7 @@ class ModelView extends React.Component {
       this.state.spinX,
       {
         toValue: spinX,
-        duration: 100,
+        duration: 10,
         easing: Easing.linear
       }
     ).start();
@@ -49,7 +49,7 @@ class ModelView extends React.Component {
       this.state.spinY,
       {
         toValue: spinY,
-        duration: 100,
+        duration: 10,
         easing: Easing.linear
       }
     ).start();
